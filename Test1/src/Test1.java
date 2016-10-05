@@ -9,7 +9,7 @@ public class Test1 {
         System.out.println("Octal: " + Integer.toOctalString(n));
         System.out.println("Hexadecimal: " + Integer.toHexString(n));
         System.out.println("Termario: " + Integer.toString(n,3));
-        n=Integer.parseInt("CAFE ", 16);
-        System.out.println("Valor de n: " + n);
+        n=Integer.parseInt("CAFE",16);
+        System.out.println("Valor de CAFE: " + n);
     }
 }
