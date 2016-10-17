@@ -13,6 +13,7 @@ public class Principal {
             alumno_ucad[i] = new Alumno();
             System.out.println(" Nombre: ");
             alumno_ucad[i].setNombre(reed.next());
+            alumno_ucad[i].s
         }
         alumno_ucad[0] = new Alumno(" Benjamin ", " 13170001 ");
         alumno_ucad[1] = new Alumno(" Mercedes ", " 15061834");
