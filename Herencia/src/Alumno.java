@@ -34,4 +34,12 @@ public class Alumno extends Persona {
     public void setMatricula(String matricula) {
         this.matricula = matricula;
     }
+    @Override
+    public String toString() {
+        String tmp;
+        tmp = "";
+        tmp = "Nombre: "+ nombre + "\n"+ "Fecha N"+ fecha_nacimiento + "\n"+ "R.F.C. :"+ RFC + "\n"
+                + "Semestre: "+ semestre + "\n" + "Carrera" + carrera + "\n" + "Matrícula" + matricula ;
+        return tmp;
+    }
 }

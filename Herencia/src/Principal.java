@@ -13,12 +13,17 @@ public class Principal {
             alumno_ucad[i] = new Alumno();
             System.out.println(" Nombre: ");
             alumno_ucad[i].setNombre(reed.next());
-            alumno_ucad[i].s
+            System.out.println("RFC");
+            alumno_ucad [i].setRFC(reed.next());
+            System.out.println("Matrícula");
+            alumno_ucad [i].setMatricula(reed.next());
+            System.out.println("Carrera");
+            alumno_ucad [i].setCarrera(reed.next());
         }
-        alumno_ucad[0] = new Alumno(" Benjamin ", " 13170001 ");
-        alumno_ucad[1] = new Alumno(" Mercedes ", " 15061834");
+        profesor_ucad[0] = new Profesor(" Benjamin ", " 13170001 ");
+        profesor_ucad[1] = new Profesor(" Mercedes ", " 15061834");
         for (i=0; i<10; i++){
-            System.out.println(alumno_ucad[i].toString());
+            System.out.println(profesor_ucad[i].toString());
         }
     }
 

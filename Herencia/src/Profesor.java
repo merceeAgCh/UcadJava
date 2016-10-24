@@ -5,6 +5,7 @@ public class Profesor extends Persona {
    protected String numero_emppleado;
     protected String carrera;
     protected String grado;
+    protected String nombre;
     Profesor(){}
     Profesor(String name, String numero_emppleado){
         nombre=name;
@@ -34,4 +35,20 @@ public class Profesor extends Persona {
     public void setGrado(String grado) {
         this.grado = grado;
     }
+    public String getNombre() {
+        return nombre;
+    }
+
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
+    }
+    @Override
+    public String toString() {
+        String tmp;
+        tmp = "";
+        tmp = "Nombre: "+ nombre + "\n"+ "Número de Empleado"+ numero_emppleado + "\n"+ "Carrera :"+ carrera + "\n"
+                + "Grado: "+ grado + "\n";
+        return tmp; //To change body of generated methods, choose Tools | Templates.
+    }
+
 }
