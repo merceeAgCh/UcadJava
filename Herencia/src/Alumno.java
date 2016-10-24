@@ -42,4 +42,9 @@ public class Alumno extends Persona {
                 + "Semestre: "+ semestre + "\n" + "Carrera" + carrera + "\n" + "Matrícula" + matricula ;
         return tmp;
     }
+
+    @Override
+    public void setFecha_nacimiento(String fecha_nacimiento) {
+        super.setFecha_nacimiento(fecha_nacimiento);
+    }
 }

@@ -51,4 +51,9 @@ public class Profesor extends Persona {
         return tmp; //To change body of generated methods, choose Tools | Templates.
     }
 
+    @Override
+    public String getRFC() {
+        return super.getRFC();
+    }
+
 }
