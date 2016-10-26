@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4e1cc7df-bc75-4a08-b240-e56f3b11246f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Vehiculo/src/SimuladorVehiculo.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Vehiculo/src/camion.java" afterPath="$PROJECT_DIR$/Vehiculo/src/camion.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Vehiculo/src/sedan.java" afterPath="$PROJECT_DIR$/Vehiculo/src/sedan.java" />
     </list>
     <ignored path="UcadJava.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -657,11 +653,18 @@
       <option name="project" value="LOCAL" />
       <updated>1477320991830</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Miercoles 26 de octubre POO vehiculo">
+      <created>1477490240283</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1477490240283</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1370" height="772" extended-state="0" />
+    <frame x="-8" y="-8" width="1370" height="772" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -711,7 +714,8 @@
     <MESSAGE value="Lunes 24de octubre POO corregido a clase anterior &#10;" />
     <MESSAGE value="Lunes 24de octubre POO corregido a clase anterior 2&#10;" />
     <MESSAGE value="Lunes 24de octubre POO vehiculo1&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Lunes 24de octubre POO vehiculo1&#10;" />
+    <MESSAGE value="Miercoles 26 de octubre POO vehiculo" />
+    <option name="LAST_COMMIT_MESSAGE" value="Miercoles 26 de octubre POO vehiculo" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
