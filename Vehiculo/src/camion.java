@@ -4,7 +4,7 @@
 public class camion extends vehiculo {
     remolque rmlq;
 
-    public camion(String placa, remolque rmlq) {
+    public camion(String placa) {
         super(placa);
         this.rmlq = rmlq;
     }
@@ -22,7 +22,7 @@ public class camion extends vehiculo {
     @Override
     public String toString() {
         String tmp = super.toString();
-        return tmp + rmlq.toString()
+        return tmp + rmlq.toString();
     }
 
     public void Quitaremolque(){

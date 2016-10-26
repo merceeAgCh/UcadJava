@@ -19,7 +19,7 @@ public class sedan  extends vehiculo {
 
     @Override
     public String toString() {
-        String tmp = super.toString()
+        String tmp = super.toString();
         return  tmp + "sedan{" +
 
                 "numero_puertas=" + numero_puertas +
